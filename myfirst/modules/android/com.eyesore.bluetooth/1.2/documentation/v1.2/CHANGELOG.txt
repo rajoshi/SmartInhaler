@@ -1,0 +1,35 @@
+V 1.1
+
+Wrapped IOStreams with Buffered IOStreams.
+Exposed ability to set size of those buffers.
+
+Renamed setOutputBuffer to setReadSize which is more accurate.
+setReadSize may be used to control the maximum size of the data on each "bluetooth:data" event.
+
+Added ability to write data to remote devices (buffered).
+Updated example to demonstrate basic writing.
+
+Handled error dealing with reserved UUIDS on remote services.
+
+Added activity indicators in example.
+
+v.1.2
+New Methods:
+isEnabled, isSupported - Low overhead methods to check whether bluetooth is supported and enabled on the device.
+setKillOnDestroy - Setter for the KillOnDestroy property of the module. 
+quickPair(deviceName) - Connect to the bluetooth serial-port-like service without need for querying device services.
+
+New Events:
+bluetooth:resume
+bluetooth:pause
+bluetooth:start
+bluetooth:stop
+bluetooth:destroy
+These expose the native android events for onResume, onPause, etc.
+See: http://developer.android.com/reference/android/app/Activity.html
+
+New Properties
+KillOnDestroy - Default is true.  If true, will kill the bluetooth service when your app exits.
+
+Significantly improved ability to close the bluetooth service cleanly through 
+use of the native onDestroy event.
