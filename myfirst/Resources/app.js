@@ -31,7 +31,7 @@ bt.setOutputBuffer(OUT_BUFFER);
 // defaults to 8192
 bt.setReadSize(65536);
 // defaults to 1024
-
+var MapModule = require('ti.map');
 // Uncomment to allow the bluetooth service to continue running in the background after your app closes.
 // bt.setKillOnDestroy(false);
 
@@ -74,8 +74,8 @@ var dataView = Ti.UI.createScrollView({
 
 win2.add(dataView);
 
-var mapview = Titanium.Map.createView({
-	mapType : Titanium.Map.STANDARD_TYPE,
+var mapview = MapModule.createView({
+	mapType : MapModule.NORMAL_TYPE,
 	region : {
 		latitude : 29.760193,
 		longitude : -95.36939,
@@ -378,6 +378,13 @@ var listenForData = function(deviceName) {
 
 };
 syncView.add(viewlogButton);
+var f = Ti.Filesystem.getFile("header");
+var header = f.read();
+Ti.API.info(header.length);
+var headstream = Ti.Stream.createStream({
+	source : header,
+	mode : Ti.Stream.MODE_READ
+});
 viewlogButton.addEventListener('click', function(e) { window:win2;
 	//show logs
 	// count = 0;
@@ -397,13 +404,7 @@ viewlogButton.addEventListener('click', function(e) { window:win2;
 				alert("error, please try again! Bytes received: " + bt_data.length + " pic length:" + pic_length);
 				return;
 			}
-			var f = Ti.Filesystem.getFile('header');
-			var header = f.read();
-Ti.API.info(header.length);
-			var headstream = Ti.Stream.createStream({
-				source : header,
-				mode : Ti.Stream.MODE_READ
-			});
+
 			var pic = Ti.createBuffer({
 				length : header.length
 			});
@@ -422,9 +423,9 @@ Ti.API.info(header.length);
 			i = i + 21 + pic_length;
 			pic.release();
 			countim = countim + 1;
-			flag_view =1;
+			flag_view = 1;
 		}
-		
+
 	i = 0;
 	var log = txt.read();
 	var str = log.toString();
@@ -482,7 +483,7 @@ Ti.API.info(header.length);
 
 		var url = url + "&wifi=mac" + ":" + mac[0] + ":" + mac[1] + ":" + mac[2] + ":" + mac[3] + ":" + mac[4] + ":" + mac[5];
 		var url = url + "&wifi=mac" + ":" + mac[6] + ":" + mac[7] + ":" + mac[8] + ":" + mac[9] + ":" + mac[10] + ":" + mac[11];
-		
+alert(url);
 		var json, lng, lat;
 		var xhr = Ti.Network.createHTTPClient({
 			onload : function(e) {
@@ -538,7 +539,7 @@ Ti.API.info(header.length);
 		xhr.open("GET", url);
 		xhr.send();
 		function createannot(code, lat, lng) {
-			var point = Titanium.Map.createAnnotation({
+			var point = MapModule.createAnnotation({
 				latitude : lat,
 				longitude : lng,
 				title : code,
@@ -546,7 +547,8 @@ Ti.API.info(header.length);
 				// image : "./images/red_pin.jpeg",
 				animate : true,
 				leftButton : '../images/appcelerator_small.png',
-				myid : 1 // Custom property to uniquely identify this annotation.
+				myid : 1, // Custom property to uniquely identify this annotation.
+				pincolor : MapModule.ANNOTATION_GREEN,
 			});
 			var region1 = {
 				latitude : lat,
