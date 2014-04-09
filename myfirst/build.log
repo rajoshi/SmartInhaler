@@ -1,0 +1,167 @@
+Logfile initialized
+[INFO] logfile = C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build.log
+[DEBUG] C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\builder.py install SmartInhaler C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\adt\adt-bundle-windows-x86_64-20130514\sdk C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst com.appcelerator.myfirst 6
+[INFO] Titanium SDK version: 3.1.1 (06/15/13 16:09 f7592c1)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.153000 seconds on emulator to get ready
+[DEBUG] com.appcelerator.myfirst installed? False
+[INFO] Copying CommonJS modules...
+[INFO] Copying project resources..
+[INFO] Detected change in tiapp.xml, or assets deleted. Forcing full re-build...
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\appicon.png => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\appicon.png
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\default.png => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\default.png
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\app.js => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\app.js
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\chart.html => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\chart.html
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\dygraph-combined.js => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\dygraph-combined.js
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\header => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\header
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\header_old => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\header_old
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\images\background1.PNG => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\images\background1.PNG
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\images\backgroundblue.jpg => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\images\backgroundblue.jpg
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\images\backgroundblue2.jpg => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\images\backgroundblue2.jpg
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\images\backgroundblue3.png => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\images\backgroundblue3.png
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\images\blackcircle.png => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\images\blackcircle.png
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\images\gold.png => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\images\gold.png
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\images\graycircle.png => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\images\graycircle.png
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\images\grey.png => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\images\grey.png
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\images\grey_pin.jpg => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\images\grey_pin.jpg
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\images\map_blue.png => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\images\map_blue.png
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\images\map_green.png => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\images\map_green.png
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\images\map_red.png => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\images\map_red.png
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\images\map_reddot.png => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\images\map_reddot.png
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\images\maroon.png => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\images\maroon.png
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\images\red_pin.jpg => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\images\red_pin.jpg
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\images\white.png => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\images\white.png
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\KS_nav_ui.png => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\KS_nav_ui.png
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\KS_nav_views.png => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\KS_nav_views.png
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\maroon.png => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\maroon.png
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\protocol.txt => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\protocol.txt
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\spinner.gif => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\spinner.gif
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\time.txt => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\time.txt
+[TRACE] COPYING CREATED FILE: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\tools.js => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\tools.js
+[DEBUG] LiveView not enabled
+[TRACE] Generating Java Classes
+[DEBUG] Processing Android resource drawables
+[DEBUG] app stylesheet => C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\gen\com\appcelerator\myfirst\ApplicationStylesheet.java
+[DEBUG] copying app icon: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\appicon.png
+[DEBUG] generating theme.xml
+[DEBUG] found drawable-long-land-hdpi splash screen at C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\images\res-long-land-hdpi\default.png
+[DEBUG] copying C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\images\res-long-land-hdpi\default.png splash screen to C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\res\drawable-long-land-hdpi\background.png
+[DEBUG] found drawable-long-land-ldpi splash screen at C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\images\res-long-land-ldpi\default.png
+[DEBUG] copying C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\images\res-long-land-ldpi\default.png splash screen to C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\res\drawable-long-land-ldpi\background.png
+[DEBUG] found drawable-long-port-hdpi splash screen at C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\images\res-long-port-hdpi\default.png
+[DEBUG] copying C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\images\res-long-port-hdpi\default.png splash screen to C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\res\drawable-long-port-hdpi\background.png
+[DEBUG] found drawable-long-port-ldpi splash screen at C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\images\res-long-port-ldpi\default.png
+[DEBUG] copying C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\images\res-long-port-ldpi\default.png splash screen to C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\res\drawable-long-port-ldpi\background.png
+[DEBUG] found drawable-notlong-land-hdpi splash screen at C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\images\res-notlong-land-hdpi\default.png
+[DEBUG] copying C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\images\res-notlong-land-hdpi\default.png splash screen to C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\res\drawable-notlong-land-hdpi\background.png
+[DEBUG] found drawable-notlong-land-ldpi splash screen at C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\images\res-notlong-land-ldpi\default.png
+[DEBUG] copying C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\images\res-notlong-land-ldpi\default.png splash screen to C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\res\drawable-notlong-land-ldpi\background.png
+[DEBUG] found drawable-notlong-land-mdpi splash screen at C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\images\res-notlong-land-mdpi\default.png
+[DEBUG] copying C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\images\res-notlong-land-mdpi\default.png splash screen to C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\res\drawable-notlong-land-mdpi\background.png
+[DEBUG] found drawable-notlong-port-hdpi splash screen at C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\images\res-notlong-port-hdpi\default.png
+[DEBUG] copying C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\images\res-notlong-port-hdpi\default.png splash screen to C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\res\drawable-notlong-port-hdpi\background.png
+[DEBUG] found drawable-notlong-port-ldpi splash screen at C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\images\res-notlong-port-ldpi\default.png
+[DEBUG] copying C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\images\res-notlong-port-ldpi\default.png splash screen to C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\res\drawable-notlong-port-ldpi\background.png
+[DEBUG] found drawable-notlong-port-mdpi splash screen at C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\images\res-notlong-port-mdpi\default.png
+[DEBUG] copying C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\Resources\android\images\res-notlong-port-mdpi\default.png splash screen to C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\res\drawable-notlong-port-mdpi\background.png
+[DEBUG] found splash screen at C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\assets\Resources\default.png
+[TRACE] Writing out AndroidManifest.xml
+[DEBUG] adding C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\gen\com\appcelerator\myfirst\ApplicationStylesheet.java to javac build list
+[DEBUG] adding C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\gen\com\appcelerator\myfirst\R.java to javac build list
+[DEBUG] adding C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\gen\com\appcelerator\myfirst\SmartinhalerActivity.java to javac build list
+[DEBUG] adding C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\gen\com\appcelerator\myfirst\SmartinhalerAppInfo.java to javac build list
+[DEBUG] adding C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\gen\com\appcelerator\myfirst\SmartinhalerApplication.java to javac build list
+[DEBUG] Building Java Sources: "C:\\Users\\Rajoshi\\Dropbox\\WORK\\Asthma\\software_appside\\Titanium\\myfirst\\build\\android\\gen\\com\\appcelerator\\myfirst\\ApplicationStylesheet.java" "C:\\Users\\Rajoshi\\Dropbox\\WORK\\Asthma\\software_appside\\Titanium\\myfirst\\build\\android\\gen\\com\\appcelerator\\myfirst\\R.java" "C:\\Users\\Rajoshi\\Dropbox\\WORK\\Asthma\\software_appside\\Titanium\\myfirst\\build\\android\\gen\\com\\appcelerator\\myfirst\\SmartinhalerActivity.java" "C:\\Users\\Rajoshi\\Dropbox\\WORK\\Asthma\\software_appside\\Titanium\\myfirst\\build\\android\\gen\\com\\appcelerator\\myfirst\\SmartinhalerAppInfo.java" "C:\\Users\\Rajoshi\\Dropbox\\WORK\\Asthma\\software_appside\\Titanium\\myfirst\\build\\android\\gen\\com\\appcelerator\\myfirst\\SmartinhalerApplication.java"
+[INFO] Compiling Android Resources... This could take some time
+[DEBUG] Android classes.dex built
+[DEBUG] creating unsigned apk: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\build\android\bin\app-unsigned.apk
+[DEBUG] from resource zip => assets/Resources/images/background1.PNG
+[DEBUG] from resource zip => assets/Resources/images/backgroundblue.jpg
+[DEBUG] from resource zip => assets/Resources/images/backgroundblue2.jpg
+[DEBUG] from resource zip => assets/Resources/images/backgroundblue3.png
+[DEBUG] from resource zip => assets/Resources/images/blackcircle.png
+[DEBUG] from resource zip => assets/Resources/images/gold.png
+[DEBUG] from resource zip => assets/Resources/images/graycircle.png
+[DEBUG] from resource zip => assets/Resources/images/grey.png
+[DEBUG] from resource zip => assets/Resources/images/grey_pin.jpg
+[DEBUG] from resource zip => assets/Resources/images/map_blue.png
+[DEBUG] from resource zip => assets/Resources/images/map_green.png
+[DEBUG] from resource zip => assets/Resources/images/map_red.png
+[DEBUG] from resource zip => assets/Resources/images/map_reddot.png
+[DEBUG] from resource zip => assets/Resources/images/maroon.png
+[DEBUG] from resource zip => assets/Resources/images/red_pin.jpg
+[DEBUG] from resource zip => assets/Resources/images/white.png
+[DEBUG] from resource zip => assets/Resources/KS_nav_ui.png
+[DEBUG] from resource zip => assets/Resources/KS_nav_views.png
+[DEBUG] from resource zip => assets/Resources/app.js
+[DEBUG] from resource zip => assets/Resources/appicon.png
+[DEBUG] from resource zip => assets/Resources/chart.html
+[DEBUG] from resource zip => assets/Resources/default.png
+[DEBUG] from resource zip => assets/Resources/dygraph-combined.js
+[DEBUG] from resource zip => assets/Resources/header
+[DEBUG] from resource zip => assets/Resources/header_old
+[DEBUG] from resource zip => assets/Resources/maroon.png
+[DEBUG] from resource zip => assets/Resources/protocol.txt
+[DEBUG] from resource zip => assets/Resources/spinner.gif
+[DEBUG] from resource zip => assets/Resources/time.txt
+[DEBUG] from resource zip => assets/Resources/tools.js
+[DEBUG] from resource zip => assets/app (Rajoshi-THINK's conflicted copy 2013-10-16).json
+[DEBUG] from resource zip => assets/app.json
+[DEBUG] from resource zip => assets/index.json
+[DEBUG] from resource zip => assets/tiapp (Rajoshi-THINK's conflicted copy 2013-10-16).xml
+[DEBUG] from resource zip => assets/tiapp.xml
+[DEBUG] from resource zip => res/drawable/appicon.png
+[DEBUG] from resource zip => res/drawable/background.png
+[DEBUG] from resource zip => res/drawable/btn_check_buttonless_on_64.png
+[DEBUG] from resource zip => res/drawable/btn_more_64.png
+[DEBUG] from resource zip => res/drawable/disclosure_64.png
+[DEBUG] from resource zip => res/layout/titanium_tabgroup.xml
+[DEBUG] from resource zip => res/layout/titanium_ui_list_header_or_footer.xml
+[DEBUG] from resource zip => res/layout/titanium_ui_list_item.xml
+[DEBUG] from resource zip => AndroidManifest.xml
+[DEBUG] from resource zip => resources.arsc
+[DEBUG] from resource zip => res/drawable-long-land-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-long-land-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-long-port-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-long-port-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-mdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-mdpi/background.png
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\titanium.jar => org/appcelerator/titanium/build.properties
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/background.png
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_64.png
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_more.png
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_18.png
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_48.png
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_64.png
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/polling.js
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/polling.min.js
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\thirdparty.jar => org/apache/Commons-NOTICE.txt
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\thirdparty.jar => org/apache/HttpComponents-NOTICE.txt
+[DEBUG] from JAR C:\Users\Rajoshi\AppData\Roaming\Titanium\mobilesdk\win32\3.1.1.GA\android\thirdparty.jar => org/apache/mime4j-NOTICE.txt
+[DEBUG] installing native lib: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\modules\android\com.eyesore.bluetooth\1.2\libs\armeabi\libcom.eyesore.bluetooth.so
+[DEBUG] installing native lib: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\modules\android\com.eyesore.bluetooth\1.2\libs\armeabi-v7a\libcom.eyesore.bluetooth.so
+[DEBUG] installing native lib: C:\Users\Rajoshi\Dropbox\WORK\Asthma\software_appside\Titanium\myfirst\modules\android\com.eyesore.bluetooth\1.2\libs\x86\libcom.eyesore.bluetooth.so
+[DEBUG] installing native SDK libs
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.024000 seconds on emulator to get ready
+[INFO] Installing application on device
+[INFO] Application installed. Launch from drawer on Home Screen

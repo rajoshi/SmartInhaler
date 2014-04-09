@@ -1,0 +1,6 @@
+"C:/Users/Rajoshi/Dropbox/WORK/Asthma/software_appside/Titanium/myfirst/build/android/gen/com/appcelerator/myfirst/ApplicationStylesheet.java"
+"C:/Users/Rajoshi/Dropbox/WORK/Asthma/software_appside/Titanium/myfirst/build/android/gen/com/appcelerator/myfirst/AssetCryptImpl.java"
+"C:/Users/Rajoshi/Dropbox/WORK/Asthma/software_appside/Titanium/myfirst/build/android/gen/com/appcelerator/myfirst/MyfirstActivity.java"
+"C:/Users/Rajoshi/Dropbox/WORK/Asthma/software_appside/Titanium/myfirst/build/android/gen/com/appcelerator/myfirst/MyfirstAppInfo.java"
+"C:/Users/Rajoshi/Dropbox/WORK/Asthma/software_appside/Titanium/myfirst/build/android/gen/com/appcelerator/myfirst/MyfirstApplication.java"
+"C:/Users/Rajoshi/Dropbox/WORK/Asthma/software_appside/Titanium/myfirst/build/android/gen/com/appcelerator/myfirst/R.java"
